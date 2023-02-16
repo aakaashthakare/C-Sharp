@@ -1,9 +1,11 @@
-﻿// Creational pattern
-// Ensure class has only one instance, and provide global point of access to it
-// E.g. Spring : singleton-scoped beans [default scope of bean is singleton]
-// Uses: to manage pools of resources like connections or thread pools
-// Database connections, Logging, Caching, Configuration, Thread pool, [Resource management] Access to shared resource, Factory Methods,
-// Application Context, Service Locators, Event Management, Dependency Injection [ Used as dependency in dependency management framework] 
+﻿///<summary>
+/// Creational pattern
+/// Ensure class has only one instance, and provide global point of access to it
+/// E.g. Spring : singleton-scoped beans [default scope of bean is singleton]
+/// Uses: to manage pools of resources like connections or thread pools
+/// Database connections, Logging, Caching, Configuration, Thread pool, [Resource management] Access to shared resource, Factory Methods,
+/// Application Context, Service Locators, Event Management, Dependency Injection [ Used as dependency in dependency management framework] 
+/// </summary>
 
 // Class itself responsible for keeping track of its sole instance
 // The class can ensure that no other instance can be created by intercepting requests to create new objects
